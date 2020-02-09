@@ -2498,6 +2498,12 @@ footer.pad-none {
 	-webkit-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
+.snsicon {
+	filter: brightness(100%) invert(0);
+}
+.snsicon:hover {
+	filter: brightness(0) invert(1);
+}
 /*------------------------------------------------------media queries---------------------------------------------------------*/
 @media (min-width: 1220px) {
  .sns {
